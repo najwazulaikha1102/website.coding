@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9ada9fcddd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <a href="images/welcome.jpg" class="logo">NAJWA.</a>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#archievements">Archievements</a></li>
+                <li><a href="#places">Places</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Diploma of Information Management</p>
+            <h1>Hi, <span>NAJWA ZULAIKHA</span> here!<br>I'm 20 years old and from<br>Seremban, Negeri Sembilan <br><span>Nice to meet you! <i class="fa-solid fa-heart"></i></span><br</h1>
+        </div>
+    </div>
+</div>
+<!-- ------about------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/portdickson.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm just an ordinary student who wishes to work for one of the big three companies, after graduating with a degree in information systems with the highest honors, first class. Up until now, I've done everything in my power to realize this dream. I am also lucky to have a fantastic family that is always there for me. Please don't hesitate to inquire if you have any further questions concerning my life or education to all.</p>
+            
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>COMPUTER SKILLS</span><BR>Able to learn and operate various technology</li>
+                        <li><span>MANAGEMENT SKILLS</span><BR>Able to do govern both tasks and people</li>
+                        <li><span>PROBLEM-SOLVING SKILLS</span><BR>Able to quickly find an effective solution for all parties</li>
+                        <li><span>TIME MANAGEMENT SKILLS</span><BR>Able to complete tasks and projects before deadlines</li>
+                        <li><span>LEADERSHIP SKILLS</span><BR>Able to organize a group of individuals to reach a shared goal</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>PUSTAKA RAKYAT, SENAWANG</span><BR><span>MARCH - APRIL 2021</span><BR> Retail Assistant</li>
+                        <li><span>KLOPONG GULING, MYDIN SENAWANG</span><BR><span>AUGUST - OCTOBER 2022</span><BR>Kitchen Helper</li>
+                        <li><span>IRA BAIDURI RESTAURANT, SENAWANG</span><BR><span>OCTOBER - NOVEMBER 2023</span><BR>Kitchen Helper</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>DIPLOMA INFORMATION MANAGEMENT</span><BR>UITM REMBAU, NEGERI SEMBILAN</li>
+                        <li><span>SPM AND PT3</span><BR>SEKOLAH MENENGAH KEBANGSAAN PANCHOR</li>
+                        <li><span>UPSR</span><BR>SEKOLAH KEBANGSAAN PANCHOR</li>
+                        <li><span>KINDERGARTEN</span><BR>TADIKA TUNAS ASLI</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----archievements---- -->
+<div id="archievements">
+    <div class="container">
+        <h1 class="sub-title">Archievements</h1>
+        <div class="archievements-list">
+            <div>
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h2>DEAN'S LIST</h2>
+                <p>One of my goals was getting onto the dean's list, and I succeeded to achieve it in the end.</p>
+                <a href="images/deanlist.jpg">CLICK HERE</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-medal"></i>
+                <h2>NETBALL</h2>
+                <p>Netball is my favorite sport, and I won in second place at Rembau Sports Day.</p>
+                <a href="images/medal.jpg">CLICK HERE</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-shoe-prints"></i>
+                <h2>SHOES</h2>
+                <p>I managed to get my dream shoes which are Onitsuka Tiger in colour black and white</p>
+                <a href="images/kasut.jpg">CLICK HERE</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----places---- -->
+<div id="places">
+    <div class="container">
+        <h1 class="sub-title">Places I Have Visited</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/indonesia1.jpg">
+                <div class="layer">
+                    <h3>INDONESIA</h3>
+                    <p>Indonesia is the worlds fourth most populous nation and third largest democracy,  comprising the largest archipelago and located in a vast arc between the Indian Ocean and the China Sea, astride vital sea lanes in Southeast Asia.</p>
+                    <a href="https://www.britannica.com/place/Indonesia"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/singapura.jpg">
+                <div class="layer">
+                    <h3>SINGAPORE</h3>
+                    <p>Singapore is a sunny, tropical island in Southeast Asia, off the southern tip of the Malay Peninsula. It inhabited by over five million people, of which the resident population comprises four major communities; Chinese, Malay, Indian and Eurasian.</p>
+                    <a href="https://www.britannica.com/place/Singapore"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/thailand.jpg">
+                <div class="layer">
+                    <h3>THAILAND</h3>
+                    <p>Thailand is in the heart of Southeast Asia. Cambodia and Laos border the country to the east and northeast, and Myanmar lies to the northwest. To the west is the Andaman Sea and the Gulf of Thailand, southeast of Burma.</p>
+                    <a href="https://www.britannica.com/place/Thailand"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.britannica.com/place/Malaysia" class="btn">SEE MORE</a>
+    </div>
+</div>
+<!-- ----contact---- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>najwazulaikha1102@icloud.com</p>
+                <p><i class="fa-solid fa-phone"></i>011-16591078</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100023277645092"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.tiktok.com/@k6k91?lang=en"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/njwazulaikha/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="resume/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Najwa. <br>Made with  <i class="fa-solid fa-heart"></i>  for IMD311</p>
+    </div>
+</div>
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function  openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function  closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
